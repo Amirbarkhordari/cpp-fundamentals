@@ -1,0 +1,81 @@
+# Executables
+*.exe
+*.out
+*.app
+
+# Object and intermediate files
+*.o
+*.obj
+*.lo
+*.slo
+*.pch
+*.gch
+*.ilk
+*.pdb
+*.idb
+*.exp
+
+# Libraries
+*.a
+*.lib
+*.la
+*.lai
+*.so
+*.dll
+*.dylib
+
+# Build directories
+build/
+Build/
+Debug/
+Release/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+out/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+_deps/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+*.vcxproj.filters.user
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+ipch/
+*.ipch
+
+# Personal IDE settings
+.vscode/
+.idea/
+*.swp
+*~
+
+# Windows temporary files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Temporary and log files
+*.tmp
+*.temp
+*.log
+*.tlog
+*.lastbuildstate
