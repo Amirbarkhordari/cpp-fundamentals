@@ -19,31 +19,10 @@ void selectionSort(int arr[], int size)
     }
 }
 
-int binarySearch(int arr[], int size, int target)
-{
-    int low = 0;
-    int high = size - 1;
-
-    while (low <= high) {
-        int mid = (low + high) / 2;
-
-        if (arr[mid] == target)
-            return mid;
-        else if (arr[mid] < target)
-            low = mid + 1;
-        else
-            high = mid - 1;
-    }
-
-    return -1;
-}
-
 int main()
 {
     const int size = 10;
     int numbers[size];
-    int target;
-    int index;
 
     cout << "Enter 10 numbers:\n";
 
@@ -59,16 +38,6 @@ int main()
         cout << numbers[i];
     }
     cout << '\n';
-
-    cout << "Enter a number to search: ";
-    cin >> target;
-
-    index = binarySearch(numbers, size, target);
-
-    if (index != -1)
-        cout << "Found at index " << index << '\n';
-    else
-        cout << "Not found\n";
 
     return 0;
 }
